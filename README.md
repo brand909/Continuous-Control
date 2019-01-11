@@ -1,6 +1,7 @@
 # Continuous-Control
 Using deep reinforcement learning to control virtual robotic arms
 
-![](reacher.gif)
+![](uploads/reacher.gif)
 
-###Introduction
+### Introduction
+ 
