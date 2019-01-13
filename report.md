@@ -4,13 +4,13 @@ DDPG is an actor-critic algorithm that uses different levels of noise to simulat
 
 def sample(self):
 
-  x = self.state
+...x = self.state
   
-  dx = self.theta * (self.mu - x) + self.sigma * np.array([random.random() for i in range(len(x))])
+...dx = self.theta * (self.mu - x) + self.sigma * np.array([random.random() for i in range(len(x))])
   
-  self.state = x + dx
+...self.state = x + dx
   
-  return self.state
+...return self.state
 
 I began by trying to train a single agent under various noise settings. Under every setting, the agent destabilized after
 a brief period of learning. The first agent I trained was under the base noise settings, with theta = 0.15 and sigma = 0.2.
