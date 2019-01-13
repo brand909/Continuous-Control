@@ -3,9 +3,13 @@
 DDPG is an actor-critic algorithm that uses different levels of noise to simulate stochasticity. The actor can be seen as a policy that tries to maximize its return using gradient ascent, while the critic tells the actor how well it is doing. Both the actor and the critic approximate values using their respective neural networks, with target neural networks that slowly blend in these approximations by some measure, usually very small, labeled hyperperameter tau. Both actor and critic each have a target neural networks that is used as a baseline to train their regular, or 'local', neural networks. For the this specific project, the noise settings will be what's examined the most:
 
 def sample(self):
+
   x = self.state
+  
   dx = self.theta * (self.mu - x) + self.sigma * np.array([random.random() for i in range(len(x))])
+  
   self.state = x + dx
+  
   return self.state
 
 I began by trying to train a single agent under various noise settings. Under every setting, the agent destabilized after
