@@ -33,7 +33,7 @@ Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/
 
 ### Implementation
 
-I used a deep deterministic policy gradient. You can see my implentation in the file Continuous_Control.ipynb and you can read my report in the file report.md.
+I used a deep deterministic policy gradient. You can see my implentation in the file Continuous_Control.ipynb and you can read my report in the file [report.md](https://github.com/brand909/Continuous-Control/blob/master/report.md).
 
 Some good papers on algorithms that can be used to solve environments with many agents:
 
