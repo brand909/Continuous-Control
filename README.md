@@ -1,9 +1,9 @@
 # Continuous-Control
 Using deep reinforcement learning to control virtual robotic arms
 
-![](uploads/reacher.gif)
-
 ### Introduction
+
+![](uploads/reacher.gif)
  
 The environment for this project involves controlling a double-jointed arm to reach the moving target location. A reward of +0.1 is provided for each step that the agent's hand is in the goal location, and so the agent is rewarded for keeping its arm inside the moving target location.
 
