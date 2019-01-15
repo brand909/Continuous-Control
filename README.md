@@ -76,5 +76,5 @@ Some good papers on algorithms that can be used to solve environments with many 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/brand909/Continuous-Control/blob/master/LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/brand909/Continuous-Control/blob/master/LICENSE) file for details.
 
