@@ -5,7 +5,7 @@ Using deep reinforcement learning to control virtual robotic arms
 
 ![](uploads/reacher.gif)
  
-The environment for this project involves controlling a double-jointed arm to reach the moving target location. A reward of +0.1 is provided for each step that the agent's hand is in the goal location, and so the agent is rewarded for keeping its arm inside the moving target location. The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1. There are two versions of this Unity environment. The first version contains a single agent. The second version contains 20 identical agents, each with its own copy of the environment. The environment is considered solved when the average (over 100 episodes) of those average scores is at least +30. To achieve this, I used a deep deterministic policy gradient implemented with pytorch.
+The environment for this project involves controlling a double-jointed arm to reach the moving target location. A reward of +0.1 is provided for each step that the agent's hand is in the goal location, and so the agent is rewarded for keeping its arm inside the moving target location. The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1. There are two versions of this Unity environment. The first version contains a single agent. The second version contains 20 identical agents, each with its own copy of the environment. The environment is considered solved when the average (over 100 episodes) of those average scores is at least +30. To achieve this, I used a deep deterministic policy gradient implemented using pytorch.
 
 ![](uploads/ddpg_algorithm.png)
 ##### Deep Deterministic Policy Gradient Algorithm [Lillicrap et al]
@@ -76,5 +76,5 @@ Some good papers on algorithms that can be used to solve environments with many 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/brand909/Continuous-Control/blob/master/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/brand909/Continuous-Control/blob/master/LICENSE.md) file for details.
 
