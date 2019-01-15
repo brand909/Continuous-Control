@@ -1,7 +1,7 @@
 # Continuous-Control
 Using deep reinforcement learning to control virtual robotic arms
 
-### Introduction
+## Introduction
 
 ![](uploads/reacher.gif)
  
@@ -11,7 +11,7 @@ The environment for this project involves controlling a double-jointed arm to re
 ##### Deep Deterministic Policy Gradient Algorithm [Lillicrap et al]
 ##### [Source Paper](https://arxiv.org/abs/1509.02971)
 
-### Initialization
+## Initialization
 1.) Download the desired version
 
 Version 1: One (1) Agent
@@ -60,7 +60,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 ![](uploads/kernel.png)
 
-### Implementation
+## Implementation
 
 I used a deep deterministic policy gradient. You can see my implementation in the file [Continuous_Control.ipynb](https://github.com/brand909/Continuous-Control/blob/master/Continuous_Control.ipynb), read my report in the file [report.md](https://github.com/brand909/Continuous-Control/blob/master/report.md), see the neural network architectures in the file [model.py](https://github.com/brand909/Continuous-Control/blob/master/model.py), and see the DDPG agent's code and hyperperameters in the file [agent.py](https://github.com/brand909/Continuous-Control/blob/master/agent.py).
 
@@ -73,4 +73,8 @@ Some good papers on algorithms that can be used to solve environments with many 
 [D4PG](https://openreview.net/pdf?id=SyZipzbCb)
 
 [It has been shown](https://ai.googleblog.com/2016/10/how-robots-can-acquire-new-skills-from.html) that having multiple copies of the same agent sharing experience can accelerate learning.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/brand909/Continuous-Control/blob/master/LICENSE.md) file for details
 
