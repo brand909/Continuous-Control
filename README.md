@@ -74,6 +74,8 @@ Some good papers on algorithms that can be used to solve environments with many 
 
 [It has been shown](https://ai.googleblog.com/2016/10/how-robots-can-acquire-new-skills-from.html) that having multiple copies of the same agent sharing experience can accelerate learning.
 
+![](uploads/arms.gif)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/brand909/Continuous-Control/blob/master/LICENSE) file for details.
