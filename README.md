@@ -32,14 +32,14 @@ Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/
 
 
 2.) Create (and activate) a new environment with Python 3.6, enter the following in the terminal:
-
-Linux or Mac:
 #
+Linux or Mac:
+
 conda create --name drlnd python=3.6
 source activate drlnd
-#
+
 Windows:
-#
+
 conda create --name drlnd python=3.6 
 activate drlnd
 #
