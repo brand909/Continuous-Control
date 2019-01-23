@@ -62,7 +62,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 ## Implementation
 
-I used a deep deterministic policy gradient. You can see my implementation in the file [Continuous_Control.ipynb](https://github.com/brand909/Continuous-Control/blob/master/Continuous_Control.ipynb), read my report in the file [report.md](https://github.com/brand909/Continuous-Control/blob/master/report.md), see the neural network architectures in the file [model.py](https://github.com/brand909/Continuous-Control/blob/master/model.py), and see the DDPG agent's code and hyperperameters in the file [agent.py](https://github.com/brand909/Continuous-Control/blob/master/agent.py).
+I used a deep deterministic policy gradient. You can see my implementation in the file [Continuous_Control.ipynb](https://github.com/brand909/Continuous-Control/blob/master/Continuous_Control.ipynb), read my report in the file [REPORT.md](https://github.com/brand909/Continuous-Control/blob/master/REPORT.md), see the neural network architectures in the file [model.py](https://github.com/brand909/Continuous-Control/blob/master/model.py), and see the DDPG agent's code and hyperperameters in the file [agent.py](https://github.com/brand909/Continuous-Control/blob/master/agent.py).
 
 Some good papers on algorithms that can be used to solve environments with many agents:
 
